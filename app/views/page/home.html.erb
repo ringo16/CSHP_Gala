@@ -1,1 +1,81 @@
-test
+<section>
+  <div class="row titleCover box">
+    <div class="col-sm-12 title-info-div">
+      <div class="fade-in-btn">
+        <%= link_to "Reserve Your Seat", "", class:"title-reserve-btn btn-gold " %>
+        <div class="three-lines">
+          <hr class="short-line">
+          <hr class="long-line">
+          <hr class="short-line">
+        </div>
+      </div>
+      <div class="social-media-links">
+        
+      </div>
+      <div class="location-info-div">
+        <h3>309 E 2nd St, Pomona, CA 91766 | <span class="phone-number">626.938.5093</span></h3>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="row collageGrid">
+    <div class="col-sm-6 left">
+      <%# 2 Small Img %>
+      <div class="row leftTop">
+        <div class="col-sm-6 leftTopLeft box">
+        <%# This div remains empty, but uses display: flex to maintain the same height as 
+            the leftTopRightbox div. The background is set to the img, then display can be toggled
+            with media queries  %>
+        </div>
+        <div class="col-sm-6 leftTopRightbox">
+          <%= image_tag "jasmine2.jpg", class:"img-responsive" %>
+        </div>
+      </div>
+      <%# Big Img %>
+      <div class="row reftBottom box">
+        <%= image_tag "jasmine1.jpg", class:"img-responsive" %>
+      </div>
+    </div>
+    <div class="col-sm-6 right">
+      <%# Big Img %>
+      <div class="row rightTop">
+        <div class="col-sm-12 rightTop box">
+            <%= image_tag "jasmine3.jpg", class:"img-responsive" %>
+        </div>
+      </div>
+      <%# 2 Small Img %>
+      <div class="row rightBottom box">
+        <div class="col-sm-6 rightBottomLeft">
+          <%= image_tag "jasmine4.jpg", class:"img-responsive" %>
+        </div>
+        <div class="col-sm-6 rightBottomRight box">
+            <%# This div remains empty, but uses display: flex to maintain the same height as 
+            the leftTopRightbox div. The background is set to the img, then display can be toggled
+            with media queries  %>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<%# http://stackoverflow.com/questions/12260031/how-to-achieve-fixed-position-background-scroll-reveal-effect-jquery-plugin-ava %>
+
+<section>
+  <div class="row">
+    <div class="col-sm-12">
+        <%= image_tag "sponsors.png", class:"img-responsive center-block" %>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="story1">
+    <div class="row">
+      <div class="col-sm-12" style="text-align: center;">
+        <h1 class="timeBox">SUPER JASMINE</h1>
+      </div>
+    </div>
+  </div>
+</section>
